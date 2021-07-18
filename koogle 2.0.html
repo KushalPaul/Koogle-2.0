@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Koogle</title>
+<link rel="stylesheet" href="koogle_2.css">
+<style type= "text/css">
+h1{text-align:center; margin-top: 60px;}
+</style>
+</head>
+<body>
+    <a  href="https://www.amazon.in/?&_encoding=UTF8&tag=vped1a-21&linkCode=ur2&linkId=1f94e7c2bbe0c476c1d418adb3a69d74&camp=3638&creative=24630"><img src= "amazon_4.gif"width=130px height=73px></a>
+    <a  href="https://www.facebook.com/"><img src= "Facebook.gif"width=175px height=73px></a>
+
+    <a  href="https://www.youtube.com/"><img src= "youtube_2.gif"width=150px height=73.5px></a>
+    <a  href="https://www.flipkart.com/?gclid=CjwKCAjwuIWHBhBDEiwACXQYsTv05cFSvIkaY8AQy2yn91_lg2ztGwFg7BEFEKxVKs_NAc-45VxzsBoCezEQAvD_BwE&ef_id=CjwKCAjwuIWHBhBDEiwACXQYsTv05cFSvIkaY8AQy2yn91_lg2ztGwFg7BEFEKxVKs_NAc-45VxzsBoCezEQAvD_BwE:G:s&s_kwcid=AL!739!3!461541593480!e!!g!!flipkart&gclsrc=aw.ds&&semcmpid=sem_8024046704_brand_city_nc_goog"><img src= "flipkart_4.gif"width=120px height=83px></a>
+<h1><span style="color:#ff6702; font-family: Edwardian Script ITC; font-size: 4cm; text-shadow: 4px 4px yellow">K</span><span style="color:#00ffc3; font-family: Old English Text MT; font-size: 3cm; text-shadow: 4px 4px blue">o</span><span style="color:#1eff00; font-family:Old English Text MT ; font-size: 3cm; text-shadow: 4px 4px green">o</span><span style="color:#ff6702; font-family: Lucida Calligraphy; font-size: 2.5cm; text-shadow: 2px 4px yellow">g</span><span style="color:#ff89fb; font-family: monotype corsiva; font-size: 4cm; text-shadow: 4px 4px purple">l</span><span style="color:#ff00cc; font-family: Lucida fax; font-size: 3cm; text-shadow: 4px 4px purple">e</span>
+<center>
+<section>
+<div class="searchBx">
+<input type="text" name="" class="query" value="">
+<div class="icons">
+    <div><img src="sc.png"width=20 height=20></div>
+    <div><img src="mic_05.png"width=15 height=20></div>
+     </div>
+<div class="button">
+    <button class="searchBtn">Koogle Search</button>
+    
+    </div>
+</div>
+</section>
+<script>
+    let query = document.querySelector('.query')
+    let searchBtn = document.querySelector('.searchBtn')
+   
+    searchBtn.onclick = function(){
+        let url = 'https://www.google.com/search?q='+query.value;
+        window.open(url, '_self');
+    }
+
+    
+    </script>
+</center>
+</body>
+</html>
